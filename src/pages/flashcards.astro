@@ -1,0 +1,98 @@
+---
+import verbs from '../data/type1-verbs.json';
+const current = verbs[Math.floor(Math.random() * verbs.length)];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google" content="notranslate" />
+    <title>Finnish Flashcards</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        padding: 2rem;
+      }
+
+      .card {
+        width: 300px;
+        height: 200px;
+        margin: 2rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #000;
+        border-radius: 1rem;
+        cursor: pointer;
+        font-size: 1.5rem;
+        text-align: center;
+        transition: background 0.3s;
+      }
+
+      button {
+        display: block;
+        margin: 2rem auto;
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+        cursor: pointer;
+        border: none;
+        border-radius: 0.5rem;
+        background-color: #000;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="card"
+      class="card"
+      data-finnish={current.finnish}
+      data-english={current.english}
+      data-stem={current.stem}
+    >
+      {current.finnish}
+    </div>
+
+    <button id="next-btn">Next</button>
+
+    <script type="application/json" id="card-data" set:html={JSON.stringify(verbs)}></script>
+
+
+    <script type="module">
+      console.log("Script loaded!");
+
+      const card = document.getElementById("card");
+      const nextBtn = document.getElementById("next-btn");
+      const allCards = JSON.parse(document.getElementById("card-data").textContent);
+      let current = allCards[Math.floor(Math.random() * allCards.length)];
+      let flipped = false;
+
+      function renderCard() {
+        card.dataset.finnish = current.finnish;
+        card.dataset.english = current.english;
+        card.dataset.stem = current.stem;
+        card.textContent = current.finnish;
+        flipped = false;
+      }
+
+      card.addEventListener("click", () => {
+        console.log("Card clicked!");
+        if (flipped) {
+          card.textContent = card.dataset.finnish;
+        } else {
+          card.textContent = `${card.dataset.english} — Root: ${card.dataset.stem}`;
+        }
+        flipped = !flipped;
+      });
+
+      nextBtn.addEventListener("click", () => {
+        current = allCards[Math.floor(Math.random() * allCards.length)];
+        renderCard();
+      });
+
+      renderCard();
+    </script>
+  </body>
+</html>

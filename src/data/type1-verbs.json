@@ -1,0 +1,617 @@
+[
+  {
+    "finnish": "puhua",
+    "english": "to speak",
+    "stem": "puhu",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "puhun",
+      "sina": "puhut",
+      "han": "puhua",
+      "me": "puhumme",
+      "te": "puhutte",
+      "he": "puhuvat"
+    }
+  },
+  {
+    "finnish": "sanoa",
+    "english": "to say",
+    "stem": "sano",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "sanon",
+      "sina": "sanot",
+      "han": "sanoa",
+      "me": "sanomme",
+      "te": "sanotte",
+      "he": "sanovat"
+    }
+  },
+  {
+    "finnish": "istua",
+    "english": "to sit",
+    "stem": "istu",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "istun",
+      "sina": "istut",
+      "han": "istua",
+      "me": "istumme",
+      "te": "istutte",
+      "he": "istuvat"
+    }
+  },
+  {
+    "finnish": "sataa",
+    "english": "to rain",
+    "stem": "sada",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "sadan",
+      "sina": "sadat",
+      "han": "sataa",
+      "me": "sadamme",
+      "te": "sadatte",
+      "he": "satavat"
+    }
+  },
+  {
+    "finnish": "kertoa",
+    "english": "to tell",
+    "stem": "kerro",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "kerron",
+      "sina": "kerrot",
+      "han": "kertoa",
+      "me": "kerromme",
+      "te": "kerrotte",
+      "he": "kertovat"
+    }
+  },
+  {
+    "finnish": "asua",
+    "english": "to live",
+    "stem": "asu",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "asun",
+      "sina": "asut",
+      "han": "asua",
+      "me": "asumme",
+      "te": "asutte",
+      "he": "asuvat"
+    }
+  },
+  {
+    "finnish": "oppia",
+    "english": "to learn",
+    "stem": "opi",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "opin",
+      "sina": "opit",
+      "han": "oppia",
+      "me": "opimme",
+      "te": "opitte",
+      "he": "oppivat"
+    }
+  },
+  {
+    "finnish": "ottaa",
+    "english": "to take",
+    "stem": "ota",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "otan",
+      "sina": "otat",
+      "han": "ottaa",
+      "me": "otamme",
+      "te": "otatte",
+      "he": "ottavat"
+    }
+  },
+  {
+    "finnish": "antaa",
+    "english": "to give",
+    "stem": "anna",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "annan",
+      "sina": "annat",
+      "han": "antaa",
+      "me": "annamme",
+      "te": "annatte",
+      "he": "antavat"
+    }
+  },
+  {
+    "finnish": "auttaa",
+    "english": "to help",
+    "stem": "auta",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "autan",
+      "sina": "autat",
+      "han": "auttaa",
+      "me": "autamme",
+      "te": "autatte",
+      "he": "auttavat"
+    }
+  },
+  {
+    "finnish": "muistaa",
+    "english": "to remember",
+    "stem": "muista",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "muistan",
+      "sina": "muistat",
+      "han": "muistaa",
+      "me": "muistamme",
+      "te": "muistatte",
+      "he": "muistavat"
+    }
+  },
+  {
+    "finnish": "ostaa",
+    "english": "to buy",
+    "stem": "osta",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "ostan",
+      "sina": "ostat",
+      "han": "ostaa",
+      "me": "ostamme",
+      "te": "ostatte",
+      "he": "ostavat"
+    }
+  },
+  {
+    "finnish": "odottaa",
+    "english": "to wait",
+    "stem": "odota",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "odotan",
+      "sina": "odotat",
+      "han": "odottaa",
+      "me": "odotamme",
+      "te": "odotatte",
+      "he": "odottavat"
+    }
+  },
+  {
+    "finnish": "etsiä",
+    "english": "to search",
+    "stem": "etsi",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "etsin",
+      "sina": "etsit",
+      "han": "etsiä",
+      "me": "etsimme",
+      "te": "etsitte",
+      "he": "etsivät"
+    }
+  },
+  {
+    "finnish": "kysyä",
+    "english": "to ask",
+    "stem": "kysy",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "kysyn",
+      "sina": "kysyt",
+      "han": "kysyä",
+      "me": "kysymme",
+      "te": "kysytte",
+      "he": "kysyvät"
+    }
+  },
+  {
+    "finnish": "kirjoittaa",
+    "english": "to write",
+    "stem": "kirjoita",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "kirjoitan",
+      "sina": "kirjoitat",
+      "han": "kirjoittaa",
+      "me": "kirjoitamme",
+      "te": "kirjoitatte",
+      "he": "kirjoittavat"
+    }
+  },
+  {
+    "finnish": "ajaa",
+    "english": "to drive",
+    "stem": "aja",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "ajan",
+      "sina": "ajat",
+      "han": "ajaa",
+      "me": "ajamme",
+      "te": "ajatte",
+      "he": "ajavat"
+    }
+  },
+  {
+    "finnish": "alkaa",
+    "english": "to start, to begin",
+    "stem": "ala",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "alan",
+      "sina": "alat",
+      "han": "alkaa",
+      "me": "alamme",
+      "te": "alatte",
+      "he": "alkavat"
+    }
+  },
+  {
+    "finnish": "herättää",
+    "english": "to wake someone up",
+    "stem": "herätä",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "herätän",
+      "sina": "herätät",
+      "han": "herättää",
+      "me": "herätämme",
+      "te": "herätätte",
+      "he": "herättävät"
+    }
+  },
+  {
+    "finnish": "hoitaa",
+    "english": "to take care of",
+    "stem": "hoida",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "hoidan",
+      "sina": "hoidat",
+      "han": "hoitaa",
+      "me": "hoidamme",
+      "te": "hoidatte",
+      "he": "hoitavat"
+    }
+  },
+  {
+    "finnish": "huutaa",
+    "english": "to shout",
+    "stem": "huuda",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "huudan",
+      "sina": "huudat",
+      "han": "huutaa",
+      "me": "huudamme",
+      "te": "huudatte",
+      "he": "huutavat"
+    }
+  },
+  {
+    "finnish": "katsoa",
+    "english": "to watch",
+    "stem": "katso",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "katson",
+      "sina": "katsot",
+      "han": "katsoa",
+      "me": "katsomme",
+      "te": "katsotte",
+      "he": "katsovat"
+    }
+  },
+  {
+    "finnish": "kieltää",
+    "english": "to deny",
+    "stem": "kiellä",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "kiellän",
+      "sina": "kiellät",
+      "han": "kieltää",
+      "me": "kiellämme",
+      "te": "kiellätte",
+      "he": "kieltävät"
+    }
+  },
+  {
+    "finnish": "kiertää",
+    "english": "to go around",
+    "stem": "kierrä",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "kierrän",
+      "sina": "kierrät",
+      "han": "kiertää",
+      "me": "kierrämme",
+      "te": "kierrätte",
+      "he": "kiertävät"
+    }
+  },
+  {
+    "finnish": "laajentaa",
+    "english": "to expand",
+    "stem": "laajenna",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "laajennan",
+      "sina": "laajennat",
+      "han": "laajentaa",
+      "me": "laajennamme",
+      "te": "laajennatte",
+      "he": "laajentavat"
+    }
+  },
+  {
+    "finnish": "laskea",
+    "english": "to count",
+    "stem": "laske",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "lasken",
+      "sina": "lasket",
+      "han": "laskea",
+      "me": "laskemme",
+      "te": "laskette",
+      "he": "laskevat"
+    }
+  },
+  {
+    "finnish": "lukea",
+    "english": "to read",
+    "stem": "lue",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "luen",
+      "sina": "luet",
+      "han": "lukea",
+      "me": "luemme",
+      "te": "luette",
+      "he": "lukevat"
+    }
+  },
+  {
+    "finnish": "lähteä",
+    "english": "to leave",
+    "stem": "lähde",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "lähden",
+      "sina": "lähdet",
+      "han": "lähteä",
+      "me": "lähdemme",
+      "te": "lähdette",
+      "he": "lähtevät"
+    }
+  },
+  {
+    "finnish": "maksaa",
+    "english": "to pay, to cost",
+    "stem": "maksa",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "maksan",
+      "sina": "maksat",
+      "han": "maksaa",
+      "me": "maksamme",
+      "te": "maksatte",
+      "he": "maksavat"
+    }
+  },
+  {
+    "finnish": "neuvoa",
+    "english": "to give advice",
+    "stem": "neuvo",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "neuvon",
+      "sina": "neuvot",
+      "han": "neuvoa",
+      "me": "neuvomme",
+      "te": "neuvotte",
+      "he": "neuvovat"
+    }
+  },
+  {
+    "finnish": "paistaa",
+    "english": "to fry, to shine",
+    "stem": "paista",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "paistan",
+      "sina": "paistat",
+      "han": "paistaa",
+      "me": "paistamme",
+      "te": "paistatte",
+      "he": "paistavat"
+    }
+  },
+  {
+    "finnish": "rakastaa",
+    "english": "to love",
+    "stem": "rakasta",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "rakastan",
+      "sina": "rakastat",
+      "han": "rakastaa",
+      "me": "rakastamme",
+      "te": "rakastatte",
+      "he": "rakastavat"
+    }
+  },
+  {
+    "finnish": "rakastua",
+    "english": "to fall in love",
+    "stem": "rakastu",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "rakastun",
+      "sina": "rakastut",
+      "han": "rakastua",
+      "me": "rakastumme",
+      "te": "rakastutte",
+      "he": "rakastuvat"
+    }
+  },
+  {
+    "finnish": "sallia",
+    "english": "to allow",
+    "stem": "salli",
+    "type": "type1",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "sallin",
+      "sina": "sallit",
+      "han": "sallia",
+      "me": "sallimme",
+      "te": "sallitte",
+      "he": "sallivat"
+    }
+  },
+  {
+    "finnish": "soittaa",
+    "english": "to call, to play an instrument",
+    "stem": "soita",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "soitan",
+      "sina": "soitat",
+      "han": "soittaa",
+      "me": "soitamme",
+      "te": "soitatte",
+      "he": "soittavat"
+    }
+  },
+  {
+    "finnish": "sortua",
+    "english": "to collapse",
+    "stem": "sorru",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "sorrun",
+      "sina": "sorrut",
+      "han": "sortua",
+      "me": "sorrumme",
+      "te": "sorrutte",
+      "he": "sortuvat"
+    }
+  },
+  {
+    "finnish": "tietää",
+    "english": "to know",
+    "stem": "tiedä",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "tiedän",
+      "sina": "tiedät",
+      "han": "tietää",
+      "me": "tiedämme",
+      "te": "tiedätte",
+      "he": "tietävät"
+    }
+  },
+  {
+    "finnish": "tuntea",
+    "english": "to feel",
+    "stem": "tunne",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "tunnen",
+      "sina": "tunnet",
+      "han": "tuntea",
+      "me": "tunnemme",
+      "te": "tunnette",
+      "he": "tuntevat"
+    }
+  },
+  {
+    "finnish": "unohtaa",
+    "english": "to forget",
+    "stem": "unohda",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "unohdan",
+      "sina": "unohdat",
+      "han": "unohtaa",
+      "me": "unohdamme",
+      "te": "unohdatte",
+      "he": "unohtavat"
+    }
+  },
+  {
+    "finnish": "vaatia",
+    "english": "to demand",
+    "stem": "vaadi",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "vaadin",
+      "sina": "vaadit",
+      "han": "vaatia",
+      "me": "vaadimme",
+      "te": "vaaditte",
+      "he": "vaativat"
+    }
+  },
+  {
+    "finnish": "ymmärtää",
+    "english": "to understand",
+    "stem": "ymmärrä",
+    "type": "type1",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "ymmärrän",
+      "sina": "ymmärrät",
+      "han": "ymmärtää",
+      "me": "ymmärrämme",
+      "te": "ymmärrätte",
+      "he": "ymmärtävät"
+    }
+  }
+]
