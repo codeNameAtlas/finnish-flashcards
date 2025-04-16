@@ -1,0 +1,362 @@
+[
+  {
+    "finnish": "analysoida",
+    "english": "to analyse",
+    "stem": "analysoi",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "analysoin",
+      "sina": "analysoit",
+      "han": "analysoi",
+      "me": "analysoimme",
+      "te": "analysoitte",
+      "he": "analysoivat"
+    }
+  },
+  {
+    "finnish": "haravoida",
+    "english": "to rake leaves",
+    "stem": "haravoi",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "haravoin",
+      "sina": "haravoit",
+      "han": "haravoi",
+      "me": "haravoimme",
+      "te": "haravoitte",
+      "he": "haravoivat"
+    }
+  },
+  {
+    "finnish": "imuroida",
+    "english": "to vacuum",
+    "stem": "imuroi",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "imuroin",
+      "sina": "imuroit",
+      "han": "imuroi",
+      "me": "imuroimme",
+      "te": "imuroitte",
+      "he": "imuroivat"
+    }
+  },
+  {
+    "finnish": "jäädä",
+    "english": "to stay",
+    "stem": "jää",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "jään",
+      "sina": "jäät",
+      "han": "jää",
+      "me": "jäämme",
+      "te": "jäätte",
+      "he": "jäävät"
+    }
+  },
+  {
+    "finnish": "juoda",
+    "english": "to drink",
+    "stem": "juo",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "juon",
+      "sina": "juot",
+      "han": "juo",
+      "me": "juomme",
+      "te": "juotte",
+      "he": "juovat"
+    }
+  },
+  {
+    "finnish": "käydä",
+    "english": "to visit",
+    "stem": "käy",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "käyn",
+      "sina": "käyt",
+      "han": "käy",
+      "me": "käymme",
+      "te": "käytte",
+      "he": "käyvät"
+    }
+  },
+  {
+    "finnish": "kommunikoida",
+    "english": "to communicate",
+    "stem": "kommunikoi",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "kommunikoin",
+      "sina": "kommunikoit",
+      "han": "kommunikoi",
+      "me": "kommunikoimme",
+      "te": "kommunikoitte",
+      "he": "kommunikoivat"
+    }
+  },
+  {
+    "finnish": "luennoida",
+    "english": "to lecture",
+    "stem": "luennoi",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "luennoin",
+      "sina": "luennoit",
+      "han": "luennoi",
+      "me": "luennoimme",
+      "te": "luennoitte",
+      "he": "luennoivat"
+    }
+  },
+  {
+    "finnish": "luoda",
+    "english": "to create",
+    "stem": "luo",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "luon",
+      "sina": "luot",
+      "han": "luo",
+      "me": "luomme",
+      "te": "luotte",
+      "he": "luovat"
+    }
+  },
+  {
+    "finnish": "myydä",
+    "english": "to sell",
+    "stem": "myy",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "myyn",
+      "sina": "myyt",
+      "han": "myy",
+      "me": "myymme",
+      "te": "myytte",
+      "he": "myyvät"
+    }
+  },
+  {
+    "finnish": "nähdä",
+    "english": "to see",
+    "stem": "näe",
+    "type": "type2",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "näen",
+      "sina": "näet",
+      "han": "näkee",
+      "me": "näemme",
+      "te": "näette",
+      "he": "näkevät"
+    }
+  },
+  {
+    "finnish": "paketoida",
+    "english": "to package",
+    "stem": "paketoi",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "paketoin",
+      "sina": "paketoit",
+      "han": "paketoi",
+      "me": "paketoimme",
+      "te": "paketoitte",
+      "he": "paketoivat"
+    }
+  },
+  {
+    "finnish": "pysäköidä",
+    "english": "to park",
+    "stem": "pysäköi",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "pysäköin",
+      "sina": "pysäköit",
+      "han": "pysäköi",
+      "me": "pysäköimme",
+      "te": "pysäköitte",
+      "he": "pysäköivät"
+    }
+  },
+  {
+    "finnish": "saada",
+    "english": "to get, to be allowed",
+    "stem": "saa",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "saan",
+      "sina": "saat",
+      "han": "saa",
+      "me": "saamme",
+      "te": "saatte",
+      "he": "saavat"
+    }
+  },
+  {
+    "finnish": "soida",
+    "english": "to ring",
+    "stem": "soi",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "soin",
+      "sina": "soit",
+      "han": "soi",
+      "me": "soimme",
+      "te": "soitte",
+      "he": "soivat"
+    }
+  },
+  {
+    "finnish": "syödä",
+    "english": "to eat",
+    "stem": "syö",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "syön",
+      "sina": "syöt",
+      "han": "syö",
+      "me": "syömme",
+      "te": "syötte",
+      "he": "syövät"
+    }
+  },
+  {
+    "finnish": "tehdä",
+    "english": "to do, to make",
+    "stem": "tee",
+    "type": "type2",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "teen",
+      "sina": "teet",
+      "han": "tekee",
+      "me": "teemme",
+      "te": "teette",
+      "he": "tekevät"
+    }
+  },
+  {
+    "finnish": "terrorisoida",
+    "english": "to terrorize",
+    "stem": "terrorisoi",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "terrorisoin",
+      "sina": "terrorisoit",
+      "han": "terrorisoi",
+      "me": "terrorisoimme",
+      "te": "terrorisoitte",
+      "he": "terrorisoivat"
+    }
+  },
+  {
+    "finnish": "tuoda",
+    "english": "to bring",
+    "stem": "tuo",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "tuon",
+      "sina": "tuot",
+      "han": "tuo",
+      "me": "tuomme",
+      "te": "tuotte",
+      "he": "tuovat"
+    }
+  },
+  {
+    "finnish": "tupakoida",
+    "english": "to smoke",
+    "stem": "tupakoi",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "tupakoin",
+      "sina": "tupakoit",
+      "han": "tupakoi",
+      "me": "tupakoimme",
+      "te": "tupakoitte",
+      "he": "tupakoivat"
+    }
+  },
+  {
+    "finnish": "uida",
+    "english": "to swim",
+    "stem": "ui",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "uin",
+      "sina": "uit",
+      "han": "ui",
+      "me": "uimme",
+      "te": "uitte",
+      "he": "uivat"
+    }
+  },
+  {
+    "finnish": "viedä",
+    "english": "to take",
+    "stem": "vie",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "vien",
+      "sina": "viet",
+      "han": "vie",
+      "me": "viemme",
+      "te": "viette",
+      "he": "vievät"
+    }
+  },
+  {
+    "finnish": "viipaloida",
+    "english": "to slice",
+    "stem": "viipaloi",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "viipaloin",
+      "sina": "viipaloit",
+      "han": "viipaloi",
+      "me": "viipaloimme",
+      "te": "viipaloitte",
+      "he": "viipaloivat"
+    }
+  },
+  {
+    "finnish": "voida",
+    "english": "to be able to",
+    "stem": "voi",
+    "type": "type2",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "voin",
+      "sina": "voit",
+      "han": "voi",
+      "me": "voimme",
+      "te": "voitte",
+      "he": "voivat"
+    }
+  }
+]
