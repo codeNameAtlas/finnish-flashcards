@@ -1,0 +1,17 @@
+[
+  {
+    "type": "type4",
+    "finnish": "haluta",
+    "english": "to want",
+    "stem": "halua",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "haluan",
+      "sina": "haluat",
+      "han": "haluaa",
+      "me": "haluamme",
+      "te": "haluatte",
+      "he": "haluavat"
+    }
+  }
+]

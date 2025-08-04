@@ -1,11 +1,13 @@
 ---
-
 import type1 from '../data/type1-verbs.json';
 import type2 from '../data/type2-verbs.json';
+import type3 from '../data/type3-verb.json';
+import type4 from '../data/type4-verb.json';
+import type5 from '../data/type5-verb.json';
+import type6 from '../data/type6-verb.json';
 
-const allVerbs = [...type1, ...type2];
+const allVerbs = [...type1, ...type2, ...type3, ...type4, ...type5, ...type6];
 const current = allVerbs[Math.floor(Math.random() * allVerbs.length)];
-
 ---
 
 <html lang="en">
@@ -60,7 +62,8 @@ const current = allVerbs[Math.floor(Math.random() * allVerbs.length)];
         background-color: #333;
       }
 
-      label, select {
+      label,
+      select {
         font-size: 1rem;
         vertical-align: middle;
       }
@@ -72,28 +75,37 @@ const current = allVerbs[Math.floor(Math.random() * allVerbs.length)];
         margin-right: 1rem;
       }
 
-      input[type="checkbox"] {
+      input[type='checkbox'] {
         transform: scale(1.2);
         margin-left: 0.5rem;
         margin-right: 0.5rem;
       }
-
     </style>
   </head>
   <body>
     <h1>Finnish Flashcards</h1>
     <p style="max-width: 600px; margin: 0 auto 2rem; font-size: 1.1rem;">
-    Welcome to learning Finnish with flashcards. Tap the card to reveal its meaning and the root of the word. Click "Next" to test another word.
+      Welcome to learning Finnish with flashcards. Tap the card to reveal its meaning and the root of the word. Click
+      "Next" to test another word.
     </p>
 
-    <div style="margin: 2rem auto; max-width: 600px; display: flex; justify-content: center; gap: 3rem; align-items: flex-start;">
+    <div
+      style="margin: 2rem auto; max-width: 600px; display: flex; justify-content: center; gap: 3rem; align-items: flex-start;"
+    >
       <!-- Verb type select -->
       <div style="display: flex; flex-direction: column;">
         <label for="verbtype" style="font-size: 1rem; margin-bottom: 0.4rem;">Select Finnish Verb Type:</label>
-        <select id="verbtype" style="padding: 0.4rem; font-size: 1rem; border-radius: 0.4rem; border: 1px solid #ccc;">
+        <select
+          id="verbtype"
+          style="padding: 0.4rem; font-size: 1rem; border-radius: 0.4rem; border: 1px solid #ccc;"
+        >
           <option value="all">All</option>
           <option value="type1">Type 1</option>
           <option value="type2">Type 2</option>
+          <option value="type3">Type 3</option>
+          <option value="type4">Type 4</option>
+          <option value="type5">Type 5</option>
+          <option value="type6">Type 6</option>
         </select>
       </div>
 
@@ -106,9 +118,6 @@ const current = allVerbs[Math.floor(Math.random() * allVerbs.length)];
         </div>
       </div>
     </div>
-
-
-
 
     <div
       id="card"
@@ -154,51 +163,42 @@ const current = allVerbs[Math.floor(Math.random() * allVerbs.length)];
       "
     ></div>
 
-
     <script type="application/json" id="card-data" set:html={JSON.stringify(allVerbs)}></script>
-
 
     <script type="module">
       console.log("Script loaded!");
-
 
       function getFilteredVerbs() {
         const selectedType = verbtypeSelect.value;
         const kptOnly = kptToggle.checked;
 
         return allCards.filter((v) => {
-          const typeMatch = selectedType === "all" || v.type === selectedType;
-          const kptMatch = !kptOnly || v.kpt === "no";
+          const typeMatch = selectedType === 'all' || v.type === selectedType;
+          const kptMatch = !kptOnly || v.kpt === 'no';
           return typeMatch && kptMatch;
         });
       }
 
-      const card = document.getElementById("card");
-      const nextBtn = document.getElementById("next-btn");
-      const conjugationBox = document.getElementById("conjugation");
-      const conjugationText = document.getElementById("conjugation-text");
-      const verbtypeInfo = document.getElementById("verbtype-info");
-      const verbtypeSelect = document.getElementById("verbtype");
-      const kptToggle = document.getElementById("kpt-toggle");
-      const allCards = JSON.parse(document.getElementById("card-data").textContent);
+      const card = document.getElementById('card');
+      const nextBtn = document.getElementById('next-btn');
+      const conjugationBox = document.getElementById('conjugation');
+      const conjugationText = document.getElementById('conjugation-text');
+      const verbtypeInfo = document.getElementById('verbtype-info');
+      const verbtypeSelect = document.getElementById('verbtype');
+      const kptToggle = document.getElementById('kpt-toggle');
+      const allCards = JSON.parse(document.getElementById('card-data').textContent);
       let current = allCards[Math.floor(Math.random() * allCards.length)];
       let queue = shuffle(getFilteredVerbs());
 
-
-      verbtypeSelect.addEventListener("change", () => {
+      verbtypeSelect.addEventListener('change', () => {
         queue = shuffle(getFilteredVerbs());
-        console.log("Filtered verb count:", getFilteredVerbs().length);
+        console.log('Filtered verb count:', getFilteredVerbs().length);
       });
 
-
-
-      kptToggle.addEventListener("change", () => {
+      kptToggle.addEventListener('change', () => {
         queue = shuffle(getFilteredVerbs());
-        console.log("Filtered verb count:", getFilteredVerbs().length);
+        console.log('Filtered verb count:', getFilteredVerbs().length);
       });
-
-
-
 
       let flipped = false;
 
@@ -211,79 +211,136 @@ const current = allVerbs[Math.floor(Math.random() * allVerbs.length)];
         return copy;
       }
 
-
       function renderCard() {
         card.dataset.finnish = current.finnish;
         card.dataset.english = current.english;
         card.dataset.stem = current.stem;
         card.textContent = current.finnish;
         flipped = false;
-        conjugationBox.style.display = "none";
-        verbtypeInfo.style.display = "none";
-        verbtypeInfo.innerHTML = "";
+        conjugationBox.style.display = 'none';
+        verbtypeInfo.style.display = 'none';
+        verbtypeInfo.innerHTML = '';
       }
 
-      card.addEventListener("click", () => {
-        console.log("Card clicked!");
-          if (!flipped) {
-            card.textContent = `${card.dataset.english} — Root: ${card.dataset.stem}`;
-            
-            // Show conjugation
-            conjugationText.innerHTML = `
-              <div>minä ${current.conjugation.mina}</div>
-              <div>sinä ${current.conjugation.sina}</div>
-              <div>hän ${current.conjugation.han}</div>
-              <div>me ${current.conjugation.me}</div>
-              <div>te ${current.conjugation.te}</div>
-              <div>he ${current.conjugation.he}</div>
+      card.addEventListener('click', () => {
+        console.log('Card clicked!');
+        if (!flipped) {
+          card.textContent = `${card.dataset.english} — Root: ${card.dataset.stem}`;
+
+          conjugationText.innerHTML = `
+            <div>minä ${current.conjugation.mina}</div>
+            <div>sinä ${current.conjugation.sina}</div>
+            <div>hän ${current.conjugation.han}</div>
+            <div>me ${current.conjugation.me}</div>
+            <div>te ${current.conjugation.te}</div>
+            <div>he ${current.conjugation.he}</div>
+          `;
+
+          conjugationBox.style.display = 'block';
+
+          let verbType = current.type;
+
+          if (verbType === 'type1') {
+            verbtypeInfo.innerHTML = `
+              <strong>Type 1 Verb Rule</strong><br />
+              Infinitive ends in <code>-a/-ä</code>.<br />
+              Drop the final vowel and add personal endings.<br />
+              <br />
+              <strong>Examples:</strong><br />
+              minä: add <code>-n</code> (kirjoita → kirjoitan)<br />
+              sinä: add <code>-t</code><br />
+              hän: add <code>-V</code> (double the last consonant if KPT applies)<br />
+              <br />
+              <em>KPT:</em> Applies if marked "yes"
             `;
+            verbtypeInfo.style.display = 'block';
+          } else if (verbType === 'type2') {
+            verbtypeInfo.innerHTML = `
+              <strong>Type 2 Verb Rule</strong><br />
+              Infinitive ends in <code>-da/-dä</code>.<br />
+              Drop <code>-da/-dä</code> and add personal endings.<br />
+              <br />
+              <strong>Examples:</strong><br />
+              minä: add <code>-n</code> (syö → syön)<br />
+              sinä: add <code>-t</code><br />
+              hän: add <code>-V</code><br />
+              <br />
+              <em>KPT:</em> Applies if marked "yes"
+            `;
+            verbtypeInfo.style.display = 'block';
+          } else if (verbType === 'type3') {
+            verbtypeInfo.innerHTML = `
+              <strong>Type 3 Verb Rule</strong><br />
+              Verbs in this type end in <code>-lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä</code> — two consonants + a vowel.<br />
+              Remove the final syllable <code>-la/-lä, -na/-nä, -ra/-rä, -ta/-tä</code> to get the stem.<br />
+              Then add <code>-e</code> before personal endings.<br /><br />
 
-            conjugationBox.style.display = "block";
-
-            let verbType = current.type;
-
-            if (verbType === "type1") {
-              verbtypeInfo.innerHTML = `
-                <strong>Type 1 Verb Rule</strong><br />
-                Infinitive ends in <code>-a/-ä</code>.<br />
-                Drop the final vowel and add personal endings.<br />
-                <br />
-                <strong>Examples:</strong><br />
-                minä: add <code>-n</code> (kirjoita → kirjoitan)<br />
-                sinä: add <code>-t</code><br />
-                hän: add <code>-V</code> (double the last consonant if KPT applies)<br />
-                <br />
-                <em>KPT:</em> Applies if marked "yes"
-              `;
-              verbtypeInfo.style.display = "block";
-            }
-            
-            else if (verbType === "type2") {
-              verbtypeInfo.innerHTML = `
-                <strong>Type 2 Verb Rule</strong><br />
-                Infinitive ends in <code>-da/-dä</code>.<br />
-                Drop <code>-da/-dä</code> and add personal endings.<br />
-                <br />
-                <strong>Examples:</strong><br />
-                minä: add <code>-n</code> (syö → syön)<br />
-                sinä: add <code>-t</code><br />
-                hän: add <code>-V</code><br />
-                <br />
-                <em>KPT:</em> Applies if marked "yes"
-              `;
-              verbtypeInfo.style.display = "block";
-            }
-
-
-          } else {
-            card.textContent = card.dataset.finnish;
+              <strong>KPT (Reverse Gradation)</strong><br />
+              If KPT is found, apply reverse KPT to the stem. No exceptions for <em>hän</em> or <em>he</em> with Type 3 Reverse KPT.<br />
+              These follow reverse gradation (weak → strong):<br />
+              <code>k → kk</code> (nakella → minä nakkelen)<br />
+              <code>t → tt</code> (ajatella → minä ajattelen)<br />
+              <code>p → pp</code> (tapella → minä tappelen)<br />
+              <code>mm → mp</code> (ommella → minä ompelen)<br />
+              <code>nn → nt</code> (juoksennella → minä juoksentelen)<br />
+              <code>ng → nk</code> (rangaista → minä rankaisen)<br />
+              <code>ll → lt</code> (jokellella → minä jokeltelen)<br />
+              <code>rr → rt</code> (imarrella → minä imartelen)<br />
+              <code>d → t</code> (riidellä → minä riitelen)<br />
+              <code>Ø → k</code> (jaella → minä jakelen)<br />
+            `;
+            verbtypeInfo.style.display = 'block';
+          } else if (verbType === 'type4') {
+            verbtypeInfo.innerHTML = `
+              <strong>Type 4 Verb Rule</strong><br />
+              Infinitive ends in <code>-ata/-ätä</code>.<br />
+              Remove <code>-ta/-tä</code> and add <code>-a/-ä</code> before personal endings.<br />
+              <br />
+              <strong>Examples:</strong><br />
+              minä: add <code>-n</code> (haluta → haluan)<br />
+              sinä: add <code>-t</code><br />
+              hän: add <code>-aa/-ää</code><br />
+              <br />
+              <em>KPT:</em> Applies if marked "yes"
+            `;
+            verbtypeInfo.style.display = 'block';
+          } else if (verbType === 'type5') {
+            verbtypeInfo.innerHTML = `
+              <strong>Type 5 Verb Rule</strong><br />
+              Infinitive ends in <code>-ita/-itä</code>.<br />
+              Remove <code>-ta/-tä</code> and add <code>-tse</code> before personal endings.<br />
+              <br />
+              <strong>Examples:</strong><br />
+              minä: add <code>-n</code> (tarvita → tarvitsen)<br />
+              sinä: add <code>-t</code><br />
+              hän: add <code>-see</code><br />
+              <br />
+              <em>KPT:</em> Applies if marked "yes"
+            `;
+            verbtypeInfo.style.display = 'block';
+          } else if (verbType === 'type6') {
+            verbtypeInfo.innerHTML = `
+              <strong>Type 6 Verb Rule</strong><br />
+              Infinitive ends in <code>-eta/-etä</code>.<br />
+              Remove <code>-ta/-tä</code> and add <code>-ne</code> before personal endings.<br />
+              <br />
+              <strong>Examples:</strong><br />
+              minä: add <code>-n</code> (vanheta → vanhenen)<br />
+              sinä: add <code>-t</code><br />
+              hän: add <code>-nee</code><br />
+              <br />
+              <em>KPT:</em> Applies if marked "yes"
+            `;
+            verbtypeInfo.style.display = 'block';
           }
+        } else {
+          card.textContent = card.dataset.finnish;
+        }
 
-          flipped = !flipped;
-
+        flipped = !flipped;
       });
 
-      nextBtn.addEventListener("click", () => {
+      nextBtn.addEventListener('click', () => {
         if (queue.length === 0) {
           queue = shuffle(getFilteredVerbs());
         }
@@ -291,7 +348,6 @@ const current = allVerbs[Math.floor(Math.random() * allVerbs.length)];
         current = queue.pop();
         renderCard();
       });
-
 
       renderCard();
     </script>

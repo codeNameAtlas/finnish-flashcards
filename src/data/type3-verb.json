@@ -1,0 +1,422 @@
+[
+  {
+    "finnish": "ajatella",
+    "english": "to think",
+    "stem": "ajattele",
+    "type": "type3",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "ajattelen",
+      "sina": "ajattelet",
+      "han": "ajattelee",
+      "me": "ajattelemme",
+      "te": "ajattelette",
+      "he": "ajattelevat"
+    }
+  },
+  {
+    "finnish": "juosta",
+    "english": "to run",
+    "stem": "juokse",
+    "type": "type3",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "juoksen",
+      "sina": "juokset",
+      "han": "juoksee",
+      "me": "juoksemme",
+      "te": "juoksette",
+      "he": "juoksevat"
+    }
+  },
+  {
+    "finnish": "jutella",
+    "english": "to chat",
+    "stem": "juttele",
+    "type": "type3",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "juttelen",
+      "sina": "juttelet",
+      "han": "juttelee",
+      "me": "juttelemme",
+      "te": "juttelette",
+      "he": "juttelevat"
+    }
+  },
+  {
+    "finnish": "kuunnella",
+    "english": "to listen",
+    "stem": "kuuntele",
+    "type": "type3",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "kuuntelen",
+      "sina": "kuuntelet",
+      "han": "kuuntelee",
+      "me": "kuuntelemme",
+      "te": "kuuntelette",
+      "he": "kuuntelevat"
+    }
+  },
+  {
+    "finnish": "ommella",
+    "english": "to sew",
+    "stem": "ompele",
+    "type": "type3",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "ompelen",
+      "sina": "ompelet",
+      "han": "ompelee",
+      "me": "ompelemme",
+      "te": "ompelette",
+      "he": "ompelevat"
+    }
+  },
+  {
+    "finnish": "opetella",
+    "english": "to learn",
+    "stem": "opettele",
+    "type": "type3",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "opettelen",
+      "sina": "opettelet",
+      "han": "opettelee",
+      "me": "opettelemme",
+      "te": "opettelette",
+      "he": "opettelevat"
+    }
+  },
+  {
+    "finnish": "riidellä",
+    "english": "to argue",
+    "stem": "riitele",
+    "type": "type3",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "riitelen",
+      "sina": "riitelet",
+      "han": "riitelee",
+      "me": "riitelemme",
+      "te": "riitelette",
+      "he": "riitelevat"
+    }
+  },
+  {
+    "finnish": "suudella",
+    "english": "to kiss",
+    "stem": "suutele",
+    "type": "type3",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "suutelen",
+      "sina": "suutelet",
+      "han": "suutelee",
+      "me": "suutelemme",
+      "te": "suutelette",
+      "he": "suutelevat"
+    }
+  },
+  {
+    "finnish": "tapella",
+    "english": "to fight",
+    "stem": "tappele",
+    "type": "type3",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "tappelen",
+      "sina": "tappelet",
+      "han": "tappelee",
+      "me": "tappelemme",
+      "te": "tappelette",
+      "he": "tappelevat"
+    }
+  },
+  {
+    "finnish": "työskennellä",
+    "english": "to work",
+    "stem": "työskentele",
+    "type": "type3",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "työskentelen",
+      "sina": "työskentelet",
+      "han": "työskentelee",
+      "me": "työskentelemme",
+      "te": "työskentelette",
+      "he": "työskentelevät"
+    }
+  },
+  {
+    "finnish": "tulla",
+    "english": "to come",
+    "stem": "tule",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "tulen",
+      "sina": "tulet",
+      "han": "tulee",
+      "me": "tulemme",
+      "te": "tulette",
+      "he": "tulevat"
+    }
+  },
+  {
+    "finnish": "mennä",
+    "english": "to go",
+    "stem": "mene",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "menen",
+      "sina": "menet",
+      "han": "menee",
+      "me": "menemme",
+      "te": "menette",
+      "he": "menevät"
+    }
+  },
+  {
+    "finnish": "nousta",
+    "english": "to get up",
+    "stem": "nouse",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "nousen",
+      "sina": "nouset",
+      "han": "nousee",
+      "me": "nousemme",
+      "te": "nousette",
+      "he": "nousevat"
+    }
+  },
+  {
+    "finnish": "haista",
+    "english": "to smell like",
+    "stem": "haise",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "haisen",
+      "sina": "haiset",
+      "han": "haisee",
+      "me": "haisemme",
+      "te": "haisette",
+      "he": "haisevat"
+    }
+  },
+  {
+    "finnish": "hymyillä",
+    "english": "to smile",
+    "stem": "hymyile",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "hymyilen",
+      "sina": "hymyilet",
+      "han": "hymyilee",
+      "me": "hymyilemme",
+      "te": "hymyilette",
+      "he": "hymyilevät"
+    }
+  },
+  {
+    "finnish": "julkaista",
+    "english": "to publish",
+    "stem": "julkaise",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "julkaisen",
+      "sina": "julkaiset",
+      "han": "julkaisee",
+      "me": "julkaisemme",
+      "te": "julkaisette",
+      "he": "julkaisevat"
+    }
+  },
+  {
+    "finnish": "keskustella",
+    "english": "to chat",
+    "stem": "keskustele",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "keskustelen",
+      "sina": "keskustelet",
+      "han": "keskustelee",
+      "me": "keskustelemme",
+      "te": "keskustelette",
+      "he": "keskustelevat"
+    }
+  },
+  {
+    "finnish": "kiistellä",
+    "english": "to quarrel",
+    "stem": "kiistele",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "kiistelen",
+      "sina": "kiistelet",
+      "han": "kiistelee",
+      "me": "kiistelemme",
+      "te": "kiistelette",
+      "he": "kiistelevät"
+    }
+  },
+  {
+    "finnish": "kuulla",
+    "english": "to hear",
+    "stem": "kuule",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "kuulen",
+      "sina": "kuulet",
+      "han": "kuulee",
+      "me": "kuulemme",
+      "te": "kuulette",
+      "he": "kuulevat"
+    }
+  },
+  {
+    "finnish": "kävellä",
+    "english": "to walk",
+    "stem": "kävele",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "kävelen",
+      "sina": "kävelet",
+      "han": "kävelee",
+      "me": "kävelemme",
+      "te": "kävelette",
+      "he": "kävelevät"
+    }
+  },
+  {
+    "finnish": "olla",
+    "english": "to be",
+    "stem": "ole",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "olen",
+      "sina": "olet",
+      "han": "on",
+      "me": "olemme",
+      "te": "olette",
+      "he": "ovat"
+    }
+  },
+  {
+    "finnish": "opiskella",
+    "english": "to study",
+    "stem": "opiskele",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "opiskelen",
+      "sina": "opiskelet",
+      "han": "opiskelee",
+      "me": "opiskelemme",
+      "te": "opiskelette",
+      "he": "opiskelevat"
+    }
+  },
+  {
+    "finnish": "panna",
+    "english": "to put",
+    "stem": "pane",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "panen",
+      "sina": "panet",
+      "han": "panee",
+      "me": "panemme",
+      "te": "panette",
+      "he": "panevat"
+    }
+  },
+  {
+    "finnish": "pestä",
+    "english": "to wash",
+    "stem": "pese",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "pesen",
+      "sina": "peset",
+      "han": "pesee",
+      "me": "pesemme",
+      "te": "pesette",
+      "he": "pesevät"
+    }
+  },
+  {
+    "finnish": "purra",
+    "english": "to bite",
+    "stem": "pure",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "puren",
+      "sina": "puret",
+      "han": "puree",
+      "me": "puremme",
+      "te": "purette",
+      "he": "purevat"
+    }
+  },
+  {
+    "finnish": "pyöräillä",
+    "english": "to ride a bike",
+    "stem": "pyöräile",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "pyöräilen",
+      "sina": "pyöräilet",
+      "han": "pyöräilee",
+      "me": "pyöräilemme",
+      "te": "pyöräilette",
+      "he": "pyöräilevät"
+    }
+  },
+  {
+    "finnish": "ratkaista",
+    "english": "to solve",
+    "stem": "ratkaise",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "ratkaisen",
+      "sina": "ratkaiset",
+      "han": "ratkaisee",
+      "me": "ratkaisemme",
+      "te": "ratkaisette",
+      "he": "ratkaisevat"
+    }
+  },
+  {
+    "finnish": "surra",
+    "english": "to mourn",
+    "stem": "sure",
+    "type": "type3",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "suren",
+      "sina": "suret",
+      "han": "suree",
+      "me": "suremme",
+      "te": "surette",
+      "he": "surevat"
+    }
+  }
+]
