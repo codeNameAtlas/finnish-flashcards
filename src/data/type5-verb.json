@@ -1,17 +1,167 @@
 [
   {
-    "type": "type4",
-    "finnish": "haluta",
-    "english": "to want",
-    "stem": "halua",
+    "finnish": "hallita",
+    "english": "to rule, to govern, to master",
+    "stem": "hallitse",
+    "type": "type5",
     "kpt": "no",
     "conjugation": {
-      "mina": "haluan",
-      "sina": "haluat",
-      "han": "haluaa",
-      "me": "haluamme",
-      "te": "haluatte",
-      "he": "haluavat"
+      "mina": "hallitsen",
+      "sina": "hallitset",
+      "han": "hallitsee",
+      "me": "hallitsemme",
+      "te": "hallitsette",
+      "he": "hallitsevat"
+    }
+  },
+  {
+    "finnish": "havaita",
+    "english": "to perceive",
+    "stem": "havaitse",
+    "type": "type5",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "havaitsen",
+      "sina": "havaitset",
+      "han": "havaitsee",
+      "me": "havaitsemme",
+      "te": "havaitsette",
+      "he": "havaitsevat"
+    }
+  },
+  {
+    "finnish": "hillitä",
+    "english": "to restrain",
+    "stem": "hillitse",
+    "type": "type5",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "hillitsen",
+      "sina": "hillitset",
+      "han": "hillitsee",
+      "me": "hillitsemme",
+      "te": "hillitsette",
+      "he": "hillitsevat"
+    }
+  },
+  {
+    "finnish": "häiritä",
+    "english": "to disturb, bother",
+    "stem": "häiritse",
+    "type": "type5",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "häiritsen",
+      "sina": "häiritset",
+      "han": "häiritsee",
+      "me": "häiritsemme",
+      "te": "häiritsette",
+      "he": "häiritsevat"
+    }
+  },
+  {
+    "finnish": "kyyditä",
+    "english": "to give someone a lift",
+    "stem": "kyyditse",
+    "type": "type5",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "kyyditsen",
+      "sina": "kyyditset",
+      "han": "kyyditsee",
+      "me": "kyyditsemme",
+      "te": "kyyditsette",
+      "he": "kyyditsevat"
+    }
+  },
+  {
+    "finnish": "mainita",
+    "english": "to mention",
+    "stem": "mainitse",
+    "type": "type5",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "mainitsen",
+      "sina": "mainitset",
+      "han": "mainitsee",
+      "me": "mainitsemme",
+      "te": "mainitsette",
+      "he": "mainitsevat"
+    }
+  },
+  {
+    "finnish": "merkitä",
+    "english": "to mark",
+    "stem": "merkitse",
+    "type": "type5",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "merkitsen",
+      "sina": "merkitset",
+      "han": "merkitsee",
+      "me": "merkitsemme",
+      "te": "merkitsette",
+      "he": "merkitsevat"
+    }
+  },
+  {
+    "finnish": "punnita",
+    "english": "to weigh",
+    "stem": "punnitse",
+    "type": "type5",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "punnitsen",
+      "sina": "punnitset",
+      "han": "punnitsee",
+      "me": "punnitsemme",
+      "te": "punnitsette",
+      "he": "punnitsevat"
+    }
+  },
+  {
+    "finnish": "palkita",
+    "english": "to reward, to award",
+    "stem": "palkitse",
+    "type": "type5",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "palkitsen",
+      "sina": "palkitset",
+      "han": "palkitsee",
+      "me": "palkitsemme",
+      "te": "palkitsette",
+      "he": "palkitsevat"
+    }
+  },
+  {
+    "finnish": "tarvita",
+    "english": "to need",
+    "stem": "tarvitse",
+    "type": "type5",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "tarvitsen",
+      "sina": "tarvitset",
+      "han": "tarvitsee",
+      "me": "tarvitsemme",
+      "te": "tarvitsette",
+      "he": "tarvitsevat"
+    }
+  },
+  {
+    "finnish": "tulkita",
+    "english": "to interpret",
+    "stem": "tulkitse",
+    "type": "type5",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "tulkitsen",
+      "sina": "tulkitset",
+      "han": "tulkitsee",
+      "me": "tulkitsemme",
+      "te": "tulkitsette",
+      "he": "tulkitsevat"
     }
   }
 ]

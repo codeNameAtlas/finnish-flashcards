@@ -1,9 +1,219 @@
 [
   {
+    "finnish": "hakata",
+    "english": "to beat",
+    "stem": "hakkaa",
     "type": "type4",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "hakkaan",
+      "sina": "hakkaat",
+      "han": "hakkaa",
+      "me": "hakkaamme",
+      "te": "hakkaatte",
+      "he": "hakkaavat"
+    }
+  },
+  {
+    "finnish": "hypätä",
+    "english": "to jump",
+    "stem": "hyppää",
+    "type": "type4",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "hyppään",
+      "sina": "hyppäät",
+      "han": "hyppää",
+      "me": "hyppäämme",
+      "te": "hyppäätte",
+      "he": "hyppäävät"
+    }
+  },
+  {
+    "finnish": "kadota",
+    "english": "to disappear",
+    "stem": "katoa",
+    "type": "type4",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "katoan",
+      "sina": "katoat",
+      "han": "katoaa",
+      "me": "katoamme",
+      "te": "katoatte",
+      "he": "katoavat"
+    }
+  },
+  {
+    "finnish": "lakata",
+    "english": "to stop",
+    "stem": "lakkaa",
+    "type": "type4",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "lakkaan",
+      "sina": "lakkaat",
+      "han": "lakkaa",
+      "me": "lakkaamme",
+      "te": "lakkaatte",
+      "he": "lakkaavat"
+    }
+  },
+  {
+    "finnish": "luvata",
+    "english": "to promise",
+    "stem": "lupaa",
+    "type": "type4",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "lupaan",
+      "sina": "lupaat",
+      "han": "lupaa",
+      "me": "lupaamme",
+      "te": "lupaatte",
+      "he": "lupaavat"
+    }
+  },
+  {
+    "finnish": "maata",
+    "english": "to lie down",
+    "stem": "makaa",
+    "type": "type4",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "makaan",
+      "sina": "makaat",
+      "han": "makaa",
+      "me": "makaamme",
+      "te": "makaatte",
+      "he": "makaavat"
+    }
+  },
+  {
+    "finnish": "pakata",
+    "english": "to pack",
+    "stem": "pakkaa",
+    "type": "type4",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "pakkaan",
+      "sina": "pakkaat",
+      "han": "pakkaa",
+      "me": "pakkaamme",
+      "te": "pakkaatte",
+      "he": "pakkaavat"
+    }
+  },
+  {
+    "finnish": "pelätä",
+    "english": "to be scared",
+    "stem": "pelkää",
+    "type": "type4",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "pelkään",
+      "sina": "pelkäät",
+      "han": "pelkää",
+      "me": "pelkäämme",
+      "te": "pelkäätte",
+      "he": "pelkäävät"
+    }
+  },
+  {
+    "finnish": "pihdata",
+    "english": "to skimp",
+    "stem": "pihtaa",
+    "type": "type4",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "pihtaan",
+      "sina": "pihtaat",
+      "han": "pihtaa",
+      "me": "pihtaamme",
+      "te": "pihtaatte",
+      "he": "pihtaavat"
+    }
+  },
+  {
+    "finnish": "pudota",
+    "english": "to fall",
+    "stem": "putoaa",
+    "type": "type4",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "putoan",
+      "sina": "putoat",
+      "han": "putoaa",
+      "me": "putoamme",
+      "te": "putoatte",
+      "he": "putoavat"
+    }
+  },
+  {
+    "finnish": "tavata",
+    "english": "to meet",
+    "stem": "tapaa",
+    "type": "type4",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "tapaan",
+      "sina": "tapaat",
+      "han": "tapaa",
+      "me": "tapaamme",
+      "te": "tapaatte",
+      "he": "tapaavat"
+    }
+  },
+  {
+    "finnish": "tykätä",
+    "english": "to like",
+    "stem": "tykkää",
+    "type": "type4",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "tykkään",
+      "sina": "tykkäät",
+      "han": "tykkää",
+      "me": "tykkäämme",
+      "te": "tykkäätte",
+      "he": "tykkäävät"
+    }
+  },
+  {
+    "finnish": "avata",
+    "english": "to open",
+    "stem": "avaa",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "avaan",
+      "sina": "avaat",
+      "han": "avaa",
+      "me": "avaamme",
+      "te": "avaatte",
+      "he": "avaavat"
+    }
+  },
+  {
+    "finnish": "erota",
+    "english": "to divorce",
+    "stem": "eroa",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "eroan",
+      "sina": "eroat",
+      "han": "eroaa",
+      "me": "eroamme",
+      "te": "eroatte",
+      "he": "eroavat"
+    }
+  },
+  {
     "finnish": "haluta",
     "english": "to want",
     "stem": "halua",
+    "type": "type4",
     "kpt": "no",
     "conjugation": {
       "mina": "haluan",
@@ -12,6 +222,186 @@
       "me": "haluamme",
       "te": "haluatte",
       "he": "haluavat"
+    }
+  },
+  {
+    "finnish": "herätä",
+    "english": "to wake up",
+    "stem": "herää",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "herään",
+      "sina": "heräät",
+      "han": "herää",
+      "me": "heräämme",
+      "te": "heräätte",
+      "he": "heräävät"
+    }
+  },
+  {
+    "finnish": "huomata",
+    "english": "to notice",
+    "stem": "huomaa",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "huomaan",
+      "sina": "huomaat",
+      "han": "huomaa",
+      "me": "huomaamme",
+      "te": "huomaatte",
+      "he": "huomaavat"
+    }
+  },
+  {
+    "finnish": "juoruta",
+    "english": "to gossip",
+    "stem": "juorua",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "juoruan",
+      "sina": "juoruat",
+      "han": "juoruaa",
+      "me": "juoruamme",
+      "te": "juoruatte",
+      "he": "juoruavat"
+    }
+  },
+  {
+    "finnish": "määrätä",
+    "english": "to determine",
+    "stem": "määrää",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "määrään",
+      "sina": "määräät",
+      "han": "määrää",
+      "me": "määräämme",
+      "te": "määräätte",
+      "he": "määräävät"
+    }
+  },
+  {
+    "finnish": "osata",
+    "english": "to be able to",
+    "stem": "osaa",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "osaan",
+      "sina": "osaat",
+      "han": "osaa",
+      "me": "osaamme",
+      "te": "osaatte",
+      "he": "osaavat"
+    }
+  },
+  {
+    "finnish": "pelata",
+    "english": "to play",
+    "stem": "pelaa",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "pelaan",
+      "sina": "pelaat",
+      "han": "pelaa",
+      "me": "pelaamme",
+      "te": "pelaatte",
+      "he": "pelaavat"
+    }
+  },
+  {
+    "finnish": "piffata",
+    "english": "to treat",
+    "stem": "piffaa",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "piffaan",
+      "sina": "piffaat",
+      "han": "piffaa",
+      "me": "piffaamme",
+      "te": "piffaatte",
+      "he": "piffaavat"
+    }
+  },
+  {
+    "finnish": "siivota",
+    "english": "to clean",
+    "stem": "siivoa",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "siivoan",
+      "sina": "siivoat",
+      "han": "siivoaa",
+      "me": "siivoamme",
+      "te": "siivoatte",
+      "he": "siivoavat"
+    }
+  },
+  {
+    "finnish": "tarjota",
+    "english": "to offer, to serve",
+    "stem": "tarjoa",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "tarjoan",
+      "sina": "tarjoat",
+      "han": "tarjoaa",
+      "me": "tarjoamme",
+      "te": "tarjoatte",
+      "he": "tarjoavat"
+    }
+  },
+  {
+    "finnish": "tilata",
+    "english": "to order",
+    "stem": "tilaa",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "tilaan",
+      "sina": "tilaat",
+      "han": "tilaa",
+      "me": "tilaamme",
+      "te": "tilaatte",
+      "he": "tilaavat"
+    }
+  },
+  {
+    "finnish": "vastata",
+    "english": "to answer",
+    "stem": "vastaa",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "vastaan",
+      "sina": "vastaat",
+      "han": "vastaa",
+      "me": "vastaamme",
+      "te": "vastaatte",
+      "he": "vastaavat"
+    }
+  },
+  {
+    "finnish": "älytä",
+    "english": "to get something, to understand",
+    "stem": "älyää",
+    "type": "type4",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "älyään",
+      "sina": "älyäät",
+      "han": "älyää",
+      "me": "älyäämme",
+      "te": "älyäätte",
+      "he": "älyäävät"
     }
   }
 ]

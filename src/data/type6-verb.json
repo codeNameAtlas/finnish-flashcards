@@ -1,17 +1,287 @@
 [
   {
-    "type": "type4",
-    "finnish": "haluta",
-    "english": "to want",
-    "stem": "halua",
+    "finnish": "heiketä",
+    "english": "to become weaker",
+    "stem": "heikkene",
+    "type": "type6",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "heikkenen",
+      "sina": "heikkenet",
+      "han": "heikkenee",
+      "me": "heikkenemme",
+      "te": "heikkenette",
+      "he": "heikkenevät"
+    }
+  },
+  {
+    "finnish": "kalveta",
+    "english": "to turn pale",
+    "stem": "kalpene",
+    "type": "type6",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "kalpenen",
+      "sina": "kalpenet",
+      "han": "kalpenee",
+      "me": "kalpenemme",
+      "te": "kalpenette",
+      "he": "kalpenevat"
+    }
+  },
+  {
+    "finnish": "kyetä",
+    "english": "to be able to",
+    "stem": "kykene",
+    "type": "type6",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "kykenen",
+      "sina": "kykenet",
+      "han": "kykenee",
+      "me": "kykenemme",
+      "te": "kykenette",
+      "he": "kykenevät"
+    }
+  },
+  {
+    "finnish": "lämmetä",
+    "english": "to become warm",
+    "stem": "lämpene",
+    "type": "type6",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "lämpenen",
+      "sina": "lämpenet",
+      "han": "lämpenee",
+      "me": "lämpenemme",
+      "te": "lämpenette",
+      "he": "lämpenevät"
+    }
+  },
+  {
+    "finnish": "paeta",
+    "english": "to run away",
+    "stem": "pakene",
+    "type": "type6",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "pakenen",
+      "sina": "pakenet",
+      "han": "pakenee",
+      "me": "pakenemme",
+      "te": "pakenette",
+      "he": "pakenevat"
+    }
+  },
+  {
+    "finnish": "pidetä",
+    "english": "to become longer",
+    "stem": "pitene",
+    "type": "type6",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "pitenen",
+      "sina": "pitenet",
+      "han": "pitenee",
+      "me": "pitenemme",
+      "te": "pitenette",
+      "he": "pitenevät"
+    }
+  },
+  {
+    "finnish": "rohjeta",
+    "english": "to dare to",
+    "stem": "rohkene",
+    "type": "type6",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "rohkenen",
+      "sina": "rohkenet",
+      "han": "rohkenee",
+      "me": "rohkenemme",
+      "te": "rohkenette",
+      "he": "rohkenevat"
+    }
+  },
+  {
+    "finnish": "tarjeta",
+    "english": "to stand the cold",
+    "stem": "tarkene",
+    "type": "type6",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "tarkenen",
+      "sina": "tarkenet",
+      "han": "tarkenee",
+      "me": "tarkenemme",
+      "te": "tarkenette",
+      "he": "tarkenevat"
+    }
+  },
+  {
+    "finnish": "vaieta",
+    "english": "to become silent",
+    "stem": "vaikene",
+    "type": "type6",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "vaikenen",
+      "sina": "vaikenet",
+      "han": "vaikenee",
+      "me": "vaikenemme",
+      "te": "vaikenette",
+      "he": "vaikenevat"
+    }
+  },
+  {
+    "finnish": "valjeta",
+    "english": "to brighten up",
+    "stem": "valkene",
+    "type": "type6",
+    "kpt": "yes",
+    "conjugation": {
+      "mina": "valkenen",
+      "sina": "valkenet",
+      "han": "valkenee",
+      "me": "valkenemme",
+      "te": "valkenette",
+      "he": "valkenevät"
+    }
+  },
+  {
+    "finnish": "aueta",
+    "english": "to come loose, open",
+    "stem": "aukene",
+    "type": "type6",
     "kpt": "no",
     "conjugation": {
-      "mina": "haluan",
-      "sina": "haluat",
-      "han": "haluaa",
-      "me": "haluamme",
-      "te": "haluatte",
-      "he": "haluavat"
+      "mina": "aukenen",
+      "sina": "aukenet",
+      "han": "aukenee",
+      "me": "aukenemme",
+      "te": "aukenette",
+      "he": "aukenevat"
+    }
+  },
+  {
+    "finnish": "kuumeta",
+    "english": "to become hot",
+    "stem": "kuumene",
+    "type": "type6",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "kuumenen",
+      "sina": "kuumenet",
+      "han": "kuumenee",
+      "me": "kuumenemme",
+      "te": "kuumenette",
+      "he": "kuumenevat"
+    }
+  },
+  {
+    "finnish": "kylmetä",
+    "english": "to get colder",
+    "stem": "kylmene",
+    "type": "type6",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "kylmenen",
+      "sina": "kylmenet",
+      "han": "kylmenee",
+      "me": "kylmenemme",
+      "te": "kylmenette",
+      "he": "kylmenevät"
+    }
+  },
+  {
+    "finnish": "laajeta",
+    "english": "to become wider",
+    "stem": "laajene",
+    "type": "type6",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "laajenen",
+      "sina": "laajenet",
+      "han": "laajenee",
+      "me": "laajenemme",
+      "te": "laajenette",
+      "he": "laajenevat"
+    }
+  },
+  {
+    "finnish": "lyhetä",
+    "english": "to become shorter",
+    "stem": "lyhene",
+    "type": "type6",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "lyhenen",
+      "sina": "lyhenet",
+      "han": "lyhenee",
+      "me": "lyhenemme",
+      "te": "lyhenette",
+      "he": "lyhenevät"
+    }
+  },
+  {
+    "finnish": "nuoreta",
+    "english": "to become younger",
+    "stem": "nuorene",
+    "type": "type6",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "nuorenen",
+      "sina": "nuorenet",
+      "han": "nuorenee",
+      "me": "nuorenemme",
+      "te": "nuorenette",
+      "he": "nuorenevat"
+    }
+  },
+  {
+    "finnish": "pimetä",
+    "english": "to become darker",
+    "stem": "pimene",
+    "type": "type6",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "pimenen",
+      "sina": "pimenet",
+      "han": "pimenee",
+      "me": "pimenemme",
+      "te": "pimenette",
+      "he": "pimenevät"
+    }
+  },
+  {
+    "finnish": "tummeta",
+    "english": "to darken",
+    "stem": "tummene",
+    "type": "type6",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "tummenen",
+      "sina": "tummenet",
+      "han": "tummenee",
+      "me": "tummenemme",
+      "te": "tummenette",
+      "he": "tummenevat"
+    }
+  },
+  {
+    "finnish": "vanheta",
+    "english": "to become older",
+    "stem": "vanhene",
+    "type": "type6",
+    "kpt": "no",
+    "conjugation": {
+      "mina": "vanhenen",
+      "sina": "vanhenet",
+      "han": "vanhenee",
+      "me": "vanhenemme",
+      "te": "vanhenette",
+      "he": "vanhenevät"
     }
   }
 ]

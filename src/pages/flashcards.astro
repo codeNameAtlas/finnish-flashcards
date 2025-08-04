@@ -228,6 +228,8 @@ const current = allVerbs[Math.floor(Math.random() * allVerbs.length)];
           card.textContent = `${card.dataset.english} — Root: ${card.dataset.stem}`;
 
           conjugationText.innerHTML = `
+            <div><strong>Original Verb:</strong> ${current.finnish}</div><br />
+            <div><strong>KPT applied:</strong> ${current.kpt}</div><br />
             <div>minä ${current.conjugation.mina}</div>
             <div>sinä ${current.conjugation.sina}</div>
             <div>hän ${current.conjugation.han}</div>
@@ -243,29 +245,41 @@ const current = allVerbs[Math.floor(Math.random() * allVerbs.length)];
           if (verbType === 'type1') {
             verbtypeInfo.innerHTML = `
               <strong>Type 1 Verb Rule</strong><br />
-              Infinitive ends in <code>-a/-ä</code>.<br />
-              Drop the final vowel and add personal endings.<br />
-              <br />
-              <strong>Examples:</strong><br />
-              minä: add <code>-n</code> (kirjoita → kirjoitan)<br />
-              sinä: add <code>-t</code><br />
-              hän: add <code>-V</code> (double the last consonant if KPT applies)<br />
-              <br />
-              <em>KPT:</em> Applies if marked "yes"
+              Verbs in this group end in two vowels:<br />
+              <code>-aa, -ea, -eä, -ia, -iä, -oa, -ua, -yä, -ää, -öä</code>.<br />
+              To form the stem, remove the final <code>-a</code> or <code>-ä</code> from the infinitive.<br /><br />
+
+              <strong>KPT (Consonant Gradation)</strong><br />
+              Type 1 verbs follow <em>strong → weak</em> consonant gradation in conjugated forms:<br />
+              <code>kk → k</code> (nukkua → minä nukun)<br />
+              <code>pp → p</code> (tappaa → minä tapan)<br />
+              <code>tt → t</code> (soittaa → minä soitan)<br />
+              <code>nt → nn</code> (antaa → minä annan)<br />
+              <code>nk → ng</code> (tinkiä → minä tingin)<br />
+              <code>mp → mm</code> (ampua → minä ammun)<br />
+              <code>lt → ll</code> (kieltää → minä kiellän)<br />
+              <code>rt → rr</code> (kiertää → minä kierrän)<br />
+              <code>t → d</code> (tietää → minä tiedän)<br />
+              <code>k → Ø</code> (lukea → minä luen)<br />
+              <code>p → v</code> (sopia → minä sovin)<br />
+              <code>lke → lje</code> (sulkea → minä suljen)<br />
+              <code>rke → rje</code> (särkeä → minä särjen)<br /><br />
             `;
             verbtypeInfo.style.display = 'block';
           } else if (verbType === 'type2') {
             verbtypeInfo.innerHTML = `
               <strong>Type 2 Verb Rule</strong><br />
-              Infinitive ends in <code>-da/-dä</code>.<br />
-              Drop <code>-da/-dä</code> and add personal endings.<br />
-              <br />
-              <strong>Examples:</strong><br />
-              minä: add <code>-n</code> (syö → syön)<br />
-              sinä: add <code>-t</code><br />
-              hän: add <code>-V</code><br />
-              <br />
-              <em>KPT:</em> Applies if marked "yes"
+              Verbs in this type end in <code>-da/-dä</code>.<br />
+              To find the stem, remove the final <code>-da/-dä</code>.<br /><br />
+
+              <strong>Note:</strong><br />
+              The third person singular (<em>hän</em>) form does <em>not</em> involve doubling the final consonant — unlike Type 1 verbs.<br /><br />
+
+              <strong>KPT (Consonant Gradation)</strong><br />
+              Type 2 verbs generally do not use KPT.<br />
+              The only exceptions are <code>tehdä</code> and <code>nähdä</code>, which follow Type 1 gradation patterns:<br />
+              <code>tehdä → teen, teet, tekee</code><br />
+              <code>nähdä → näen, näet, näkee</code><br /><br />
             `;
             verbtypeInfo.style.display = 'block';
           } else if (verbType === 'type3') {
@@ -293,43 +307,59 @@ const current = allVerbs[Math.floor(Math.random() * allVerbs.length)];
           } else if (verbType === 'type4') {
             verbtypeInfo.innerHTML = `
               <strong>Type 4 Verb Rule</strong><br />
-              Infinitive ends in <code>-ata/-ätä</code>.<br />
-              Remove <code>-ta/-tä</code> and add <code>-a/-ä</code> before personal endings.<br />
-              <br />
-              <strong>Examples:</strong><br />
-              minä: add <code>-n</code> (haluta → haluan)<br />
-              sinä: add <code>-t</code><br />
-              hän: add <code>-aa/-ää</code><br />
-              <br />
-              <em>KPT:</em> Applies if marked "yes"
+              Verbs in this type end in <code>-ata/-ätä, -ota/-ötä, -uta/-ytä</code>.<br />
+              To find the stem, remove the <code>-t</code> (but not the final <code>-a/-ä</code>).<br />
+
+              <strong>Note: hän</strong><br />
+              Add <code>-a</code> to the stem if the final two vowels are different (e.g., <code>hän halua + a → haluaa</code>).<br />
+              If the stem ends in <code>-aa</code> (e.g., <code>osaa</code>), no extra vowel is added (<code>hän osaa</code>).<br /><br />
+
+              <strong>KPT (Reverse Gradation)</strong><br />
+              Type 4 verbs can apply consonant gradation (weak → strong):<br />
+              <code>k → kk</code> (pakata → minä pakkaan)<br />
+              <code>p → pp</code> (hypätä → minä hyppään)<br />
+              <code>t → tt</code> (mitata → minä mittaan)<br />
+              <code>nn → nt</code> (suunnata → minä suuntaan)<br />
+              <code>ng → nk</code> (hangata → minä hankaan)<br />
+              <code>mm → mp</code> (kammata → minä kampaan)<br />
+              <code>ll → lt</code> (vallata → minä valtaan)<br />
+              <code>rr → rt</code> (kerrata → minä kertaan)<br />
+              <code>d → t</code> (pudota → minä putoan)<br />
+              <code>Ø → k</code> (maata → minä makaan)<br />
+              <code>v → p</code> (tavata → minä tapaan)<br /><br />
             `;
             verbtypeInfo.style.display = 'block';
           } else if (verbType === 'type5') {
             verbtypeInfo.innerHTML = `
               <strong>Type 5 Verb Rule</strong><br />
-              Infinitive ends in <code>-ita/-itä</code>.<br />
-              Remove <code>-ta/-tä</code> and add <code>-tse</code> before personal endings.<br />
-              <br />
-              <strong>Examples:</strong><br />
-              minä: add <code>-n</code> (tarvita → tarvitsen)<br />
-              sinä: add <code>-t</code><br />
-              hän: add <code>-see</code><br />
-              <br />
-              <em>KPT:</em> Applies if marked "yes"
+              Verbs in this type end in <code>-ita/-itä</code>.<br />
+              To form the stem, remove the entire <code>-ita/-itä</code> ending (including the <code>-i-</code>).<br />
+              Then add <code>-itse</code> before attaching personal endings.<br /><br />
+
+              <strong>Note:</strong><br />
+              Type 5 verbs do <em>not</em> use KPT (consonant gradation).<br /><br />
             `;
             verbtypeInfo.style.display = 'block';
           } else if (verbType === 'type6') {
             verbtypeInfo.innerHTML = `
               <strong>Type 6 Verb Rule</strong><br />
-              Infinitive ends in <code>-eta/-etä</code>.<br />
-              Remove <code>-ta/-tä</code> and add <code>-ne</code> before personal endings.<br />
-              <br />
-              <strong>Examples:</strong><br />
-              minä: add <code>-n</code> (vanheta → vanhenen)<br />
-              sinä: add <code>-t</code><br />
-              hän: add <code>-nee</code><br />
-              <br />
-              <em>KPT:</em> Applies if marked "yes"
+              Verbs in this type end in <code>-eta/-etä</code>.<br />
+              To find the stem, remove the final <code>-ta/-tä</code>.<br />
+              Then add <code>-ne</code> before attaching the personal endings.<br /><br />
+
+              <strong>KPT (Consonant Gradation)</strong><br />
+              KPT applies in many Type 6 verbs and follows these weak → strong transformations:<br />
+              <code>k → kk</code> (heiketä → minä heikkenen)<br />
+              <code>p → pp</code> (hapata → minä happanen)<br />
+              <code>t → tt</code> (loitota → minä loittonen)<br />
+              <code>nn → nt</code> (kiinnetä → minä kiintenen)<br />
+              <code>mm → mp</code> (lämmetä → minä lämpenen)<br />
+              <code>d → t</code> (pidetä → minä pitenen)<br />
+              <code>Ø → k</code> (paeta → minä pakenen)<br />
+              <code>v → p</code> (kalveta → minä kalpenen)<br />
+              <code>lje → lke</code> (valjeta → minä valkenen)<br />
+              <code>hje → hke</code> (rohjeta → minä rohkenen)<br />
+              <code>rje → rke</code> (tarjeta → minä tarkenen)<br /><br />
             `;
             verbtypeInfo.style.display = 'block';
           }
